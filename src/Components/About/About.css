@@ -32,3 +32,12 @@
 .about-title h5{
   text-align: center;
 }
+
+.line{
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 1px auto;
+  background-color: yellowgreen;
+
+}

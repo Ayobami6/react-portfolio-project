@@ -2,6 +2,7 @@
 .techstack-section{
     margin-top: 40px;
     height: auto;
+    margin-left: 300px;
 }
 
 
@@ -44,4 +45,11 @@
     border-radius: 90px;
     height: 50px;
     width: 50px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    line-height: 50px;
+
 }
