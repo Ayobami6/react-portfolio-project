@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import "./Sidebar.css";
 import Home from "../Home/Home";
+import Chatbot from "react-chatbot-kit";
+import ActionProvider from "../Chatbots/ActionProvider";
+import MessageParser from "../Chatbots/MessageParser";
+import Config from "../Chatbots/Config";
+import "react-chatbot-kit/build/main.css";
+
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import SidebarList from "./SidebarList";
 

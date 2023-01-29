@@ -1,5 +1,5 @@
 import "./SidebarList.css";
-import React from "react"
+import React from "react";
 import profilepic from "../../Image/pp.jpg";
 import {
   FcHome,
@@ -33,16 +33,16 @@ const SidebarList = ({ expandSidebar }) => {
               <FcFactory size={25} /> Work Experience{" "}
             </li>
             <li className="nav-item">
-              <MdBiotech size={25} color="orange"/> Tech Stack{" "}
+              <MdBiotech size={25} color="orange" /> Tech Stack{" "}
             </li>
             <li className="nav-item">
               {" "}
-              <MdCastForEducation  size={25} /> Education{" "}
+              <MdCastForEducation size={25} /> Education{" "}
             </li>
             <li className="nav-item">
               <FcTodoList size={25} /> Projects{" "}
             </li>
-             <li className="nav-item">
+            <li className="nav-item">
               {" "}
               <FcSalesPerformance size={25} /> Testimonial{" "}
             </li>
@@ -53,7 +53,7 @@ const SidebarList = ({ expandSidebar }) => {
         </div>
       ) : (
         <div className="navbar-items-only-icons">
-            <ul>
+          <ul>
             <li className="nav-item">
               {" "}
               <FcHome size={25} />
@@ -66,25 +66,24 @@ const SidebarList = ({ expandSidebar }) => {
               <FcFactory size={25} />
             </li>
             <li className="nav-item">
-              <MdBiotech size={25} color="orange"/>
+              <MdBiotech size={25} color="orange" />
             </li>
             <li className="nav-item">
               {" "}
-              <MdCastForEducation  size={25} color="orange"/>
+              <MdCastForEducation size={25} color="orange" />
             </li>
             <li className="nav-item">
               <FcTodoList size={25} />
             </li>
-             <li className="nav-item">
+            <li className="nav-item">
               {" "}
               <FcSalesPerformance size={25} />
             </li>
             <li className="nav-item">
               <FcContacts size={25} />
             </li>
-
-            </ul>
-          </div>
+          </ul>
+        </div>
       )}
     </React.Fragment>
   );
